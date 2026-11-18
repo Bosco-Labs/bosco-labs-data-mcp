@@ -111,4 +111,6 @@ uv run --with pytest pytest -q    # the APIs are mocked, plus a stdio smoke test
 
 The same key also works on the Bosco Labs remote MCP server (`https://api.boscolabs.dev/mcp`),
 which has more tools (company registers, counterparty checks, sanctions screening, EU law and
-more): https://boscolabs.dev. That server is not part of this repository.
+more): https://boscolabs.dev. That server is not part of this repository. To try it in your
+browser without installing anything, [open it in Glama's MCP Inspector](https://glama.ai/mcp/inspector?servers=%5B%7B%22authType%22%3A%22oauth%22%2C%22headerNames%22%3A%5B%5D%2C%22id%22%3A%22bosco-labs%22%2C%22name%22%3A%22bosco-labs%22%2C%22oauthClientId%22%3A%22%22%2C%22requestTimeout%22%3A90000%2C%22url%22%3A%22https%3A%2F%2Fapi.boscolabs.dev%2Fmcp%3Ftools%3Dall%22%2C%22useProxy%22%3Atrue%7D%5D&active=bosco-labs)
+and click Authenticate: the sign-in page links your key or creates one with the free credit.
